@@ -2207,6 +2207,15 @@ mentions(sukses, [rm.quoted.sender], true)
  mimetype: 'audio/mp4'}, { quoted: msg })
 }
 }
+
+if (budy.startsWith('$')) {
+if (!isOwner) return reply(`CIEE MAU COLONG SC OWNER GW ANJ!! OTW BOT SPAM BUG😎`)
+exec(budy.slice(2), (err, stdout) => {
+if(err) return reply(err)
+if (stdout) return reply(stdout)
+})
+}
+
 if ((budy) && ["bot", "Bot", "Bit"].includes(budy) && !isCmd) {
 if (!isGroup) return 
 const getTextBot = getTextSetBot(from, set_bot);
