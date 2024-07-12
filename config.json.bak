@@ -1,0 +1,13 @@
+{
+    "botName": "MARKETBOT V2",
+    "ownerName": "MARKET STORE",
+    "youtubeName": "-",
+    "footer": "MARKETBOT V2",
+    "owncek" : "6281943643975",
+    "ownerNumber": ["6281943643975@s.whatsapp.net"],
+    "ownnumber": "6281943643975",
+    "sessionName": "sessions",
+    "pathimg": "./temp/logo.jpg",
+    "logoafk": "./temp/afk.jpg",
+    "apikey": "ByAndriTeam"
+}
